@@ -1,5 +1,7 @@
 #include <limits.h>  // Для UINT_MAX
-
+#include <limits.h>
+#include <iostream>
+using namespace std;
 unsigned int product_of_two_numbers(unsigned int a, unsigned int b)
 {
     // Проверяем случай, когда a равно 0 или b равно 0
